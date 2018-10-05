@@ -10,3 +10,11 @@ import Foundation
 
 print("Hello, World!")
 
+var name = "Olimpia"
+var lastName = "Compean"
+var num1 = 40
+var  num2 = 42
+
+if num1 < num2 {
+    print("smaller number")
+}
