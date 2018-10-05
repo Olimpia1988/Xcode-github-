@@ -18,3 +18,13 @@ var  num2 = 42
 if num1 < num2 {
     print("smaller number")
 }
+
+var toDo = (task1: "House work", task2: "Grosery shopping",rent:200,completeTasks: true)
+
+switch toDo {
+case (toDo.task1, toDo.task2, toDo.rent, toDo.completeTasks):
+    print ("Tasks completed!")
+default:
+    print(" ")
+}
+
